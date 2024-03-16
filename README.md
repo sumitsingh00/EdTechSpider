@@ -8,20 +8,12 @@ This starter pack includes a basic setup for using **Tailwind CSS with React**. 
 
 1. Clone the repository to your local machine.
     ```sh
-<<<<<<< HEAD
     git clone https://github.com/sumitsingh00/EdTechSpider.git
-=======
-   
->>>>>>> c4164401a69a2cbd11a2be5505c019c7ce49c2e2
     ```
 
-1. Install the all required packages.
+1. Install the required packages.
     ```sh
-<<<<<<< HEAD
     
-=======
-
->>>>>>> c4164401a69a2cbd11a2be5505c019c7ce49c2e2
     npm install
     ```
 
@@ -36,8 +28,4 @@ The project is set up to use `postcss-cli` to process your CSS files. You can ad
 
 ## Contributing
 
-<<<<<<< HEAD
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request .
-=======
 Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
->>>>>>> c4164401a69a2cbd11a2be5505c019c7ce49c2e2
