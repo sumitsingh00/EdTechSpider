@@ -15,7 +15,7 @@ This starter pack includes a basic setup for using **Tailwind CSS with React**. 
 >>>>>>> c4164401a69a2cbd11a2be5505c019c7ce49c2e2
     ```
 
-1. Install the required packages.
+1. Install the all required packages.
     ```sh
 <<<<<<< HEAD
     
