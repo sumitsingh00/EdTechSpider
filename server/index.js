@@ -21,6 +21,9 @@ database.connect();
 //middlewares
 app.use(express.json());
 app.use(cookieParser());
+
+// cors : jo bhi request localhots 3000 se aa rhi hai uska use krna
+// Access-Control-Allow-Credentials is a header that, when set to true , tells browsers to expose the response to the frontend JavaScript code.
 app.use(
 	cors({
 		origin:"http://localhost:3000",
