@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 /server/node_modules
-/server/.env
+/server/env
 .pnp.js
 
 # testing
