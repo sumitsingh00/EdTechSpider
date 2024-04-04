@@ -1,4 +1,4 @@
-const nodemailer = require("nodemailer");
+const nodemailer = require("nodemailer");// nodemailer ko install kia
 
 const mailSender = async (email, title, body) => {
     try{
