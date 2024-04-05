@@ -13,15 +13,15 @@ exports.resetPasswordToken = async (req, res) => {
 				message: `This Email: ${email} is not Registered With Us Enter a Valid Email `,
 			});
 		}
-		const token = crypto.randomBytes(20).toString("hex");
+		const token = crypto.randomBytes(20).toString("hex");// rendom number generator kr dega
 
 		const updatedDetails = await User.findOneAndUpdate(
-			{ email: email },
+			{ email: email },// with the help of email serarch kr liya
 			{
-				token: token,
+				token: token,// token update kr diya
 				resetPasswordExpires: Date.now() + 3600000,
 			},
-			{ new: true }
+			{ new: true }// token ko update kr do
 		);
 		console.log("DETAILS", updatedDetails);
 
