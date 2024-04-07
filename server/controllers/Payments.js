@@ -28,7 +28,7 @@ exports.capturePayment = async (req, res) => {
       // Find the course by its ID
       course = await Course.findById(course_id);
 
-      // If the course is not found, return an error
+      // If the course is not found,  return an error
       if (!course) {
         return res
           .status(200)
