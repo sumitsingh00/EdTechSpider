@@ -7,7 +7,7 @@ const paymentRoutes = require("./routes/Payments");
 const courseRoutes = require("./routes/Course");
 const contactUsRoute = require("./routes/Contact");
 const database = require("./config/database");
-const cookieParser = require("cookie-parser");
+const cookieParser = require("cookie-parser");// cookie-parser ko install kia
 const cors = require("cors");
 const {cloudinaryConnect } = require("./config/cloudinary");
 const fileUpload = require("express-fileupload");
@@ -23,6 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 // cors : jo bhi request localhots 3000 se aa rhi hai uska use krna
+// cors allow krta hai frontend ke request ko ,  or backend response kr sktahai
 // Access-Control-Allow-Credentials is a header that, when set to true , tells browsers to expose the response to the frontend JavaScript code.
 app.use(
 	cors({
