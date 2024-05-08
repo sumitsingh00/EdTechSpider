@@ -16,7 +16,7 @@ function Navbar() {
   const { user } = useSelector((state) => state.profile)
   const { totalItems } = useSelector((state) => state.cart)
   const location = useLocation()
-
+ 
   const [subLinks, setSubLinks] = useState([])
   const [loading, setLoading] = useState(false)
 
